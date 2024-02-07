@@ -1,3 +1,6 @@
 [submodule "2048"]
 	path = 2048
 	url = https://github.com/yeaayy/2048.git
+[submodule "cayley-table"]
+	path = cayley-table
+	url = https://github.com/yeaayy/cayley-table.git

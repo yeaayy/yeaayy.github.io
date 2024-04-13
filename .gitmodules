@@ -4,3 +4,6 @@
 [submodule "cayley-table"]
 	path = cayley-table
 	url = https://github.com/yeaayy/cayley-table.git
+[submodule "the-matrix"]
+	path = the-matrix
+	url = https://github.com/yeaayy/the-matrix.git

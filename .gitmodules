@@ -7,3 +7,7 @@
 [submodule "the-matrix"]
 	path = the-matrix
 	url = https://github.com/yeaayy/the-matrix.git
+[submodule "maze-generator"]
+	path = maze-generator
+	url = https://github.com/yeaayy/maze-generator.git
+	branch = main

@@ -1,13 +1,13 @@
 [submodule "2048"]
-	path = 2048
+	path = subprojects/2048
 	url = https://github.com/yeaayy/2048.git
 [submodule "cayley-table"]
-	path = cayley-table
+	path = subprojects/cayley-table
 	url = https://github.com/yeaayy/cayley-table.git
 [submodule "the-matrix"]
-	path = the-matrix
+	path = subprojects/the-matrix
 	url = https://github.com/yeaayy/the-matrix.git
 [submodule "maze-generator"]
-	path = maze-generator
+	path = subprojects/maze-generator
 	url = https://github.com/yeaayy/maze-generator.git
 	branch = main

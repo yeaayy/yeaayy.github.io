@@ -1,6 +1,5 @@
 <script setup lang="ts">
 defineProps<{
-  active?: boolean,
   to?: string,
 }>();
 </script>
@@ -8,7 +7,7 @@ defineProps<{
 <template>
   <NuxtLink :to="to ?? ''">
     <div :class="{
-    'border-t-4': $route.fullPath == to,
+    'active': $route.fullPath == to,
   }">
       <slot></slot>
     </div>
@@ -19,14 +18,18 @@ defineProps<{
 @import '../assets/base.scss';
 
 div {
-  @apply p-2 border-r whitespace-nowrap;
-  border-top-color: lighten($bgColor, 30);
+  @apply p-2 border-r border-l whitespace-nowrap border-t-4;
+  border-top-color: transparent;
+  border-left-color: lighten($bgColor, 8);
   border-right-color: lighten($bgColor, 8);
+
+  &.active {
+    border-top-color: lighten($bgColor, 30);
+  }
 
   &:hover {
     background-color: lighten($bgColor, 5);
     border-top-color: white;
-    border-top-width: 4px;
   }
 }
 </style>

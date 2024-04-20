@@ -1,7 +1,7 @@
 <template>
   <div id="navbar" class="md:mx-48">
-    <div class="flex px-2 overflow-x-scroll md:justify-center">
-      <NavItem to="/" active>Main</NavItem>
+    <div class="flex mx-4 overflow-x-scroll">
+      <NavItem to="/">Main</NavItem>
       <NavItem to="/about">More About Me</NavItem>
       <NavItem to="/game-projects">Game Projects</NavItem>
       <NavItem to="/web-projects">Web Projects</NavItem>

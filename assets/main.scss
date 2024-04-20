@@ -19,4 +19,8 @@ body {
   color: white;
 }
 
+hr {
+  border-color: lighten($bgColor, 25);
+}
+
 // * { outline: 1px solid red; }

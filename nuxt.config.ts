@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: [
-    '~/assets/main.scss'
+    '~/assets/main.scss',
   ],
   postcss: {
     plugins: {
@@ -10,4 +10,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  modules: ["@nuxt/image"],
 })

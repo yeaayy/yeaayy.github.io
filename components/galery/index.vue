@@ -1,5 +1,5 @@
 <template>
-  <div class="galery text-center">
+  <div class="galery text-center no-scrollbar">
     <slot></slot>
   </div>
 </template>

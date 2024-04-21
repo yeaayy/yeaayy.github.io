@@ -1,6 +1,6 @@
 <template>
   <div id="navbar" class="md:mx-48">
-    <div class="flex mx-4 overflow-x-scroll">
+    <div class="flex mx-4 overflow-x-scroll no-scrollbar">
       <NavItem to="/">Main</NavItem>
       <NavItem to="/about">More About Me</NavItem>
       <NavItem to="/game-projects">Game Projects</NavItem>

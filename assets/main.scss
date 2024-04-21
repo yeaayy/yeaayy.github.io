@@ -23,4 +23,13 @@ hr {
   border-color: lighten($bgColor, 25);
 }
 
+.no-scrollbar {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    /* Safari and Chrome */
+    display: none;
+  }
+}
+
 // * { outline: 1px solid red; }

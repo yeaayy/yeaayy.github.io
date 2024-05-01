@@ -8,14 +8,14 @@
     my creation with people.
   </p>
 
-  <h2 class="text-2xl font-bold my-4">About Me (Short)</h2>
+  <!-- <h2 class="text-2xl font-bold my-4">About Me (Short)</h2>
   <p class="mt-4">Formaly I study Information Technology (IT), but I much more into math, science (especially
     computer science) and game development. There isn't much else I can tell about my educational background because
     it's not relevant and I didn't come from notable university or school. I can do math but only up to simple
-    linear algebra and simple calculus. I try to study more advance topic but my head just can't take it.</p>
+    linear algebra and simple calculus. I try to study more advance topic but my head just can't take it.</p> -->
 
-  <p class="mt-4">I wouldn't write much about math, science or game dev anywhere else, because they are just boring
+  <!-- <p class="mt-4">I wouldn't write much about math, science or game dev anywhere else, because they are just boring
     to talk about. Open the <NuxtLink to="/about" class="text-white hover:underline font-bold">long version
     </NuxtLink> or other tabs if you want to know more.
-  </p>
+  </p> -->
 </template>

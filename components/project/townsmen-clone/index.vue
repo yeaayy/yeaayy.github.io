@@ -4,11 +4,11 @@
 <template>
   <h3 class="text-3xl font-bold mt-4">Clone of game Townsmen</h3>
 
-  <Galery>
-    <GaleryItem src="/gm/ss1.jpg" alt="Character chopping wood, render error" />
-    <GaleryItem src="/gm/ss2.jpg" alt="Castle, water" />
-    <GaleryItem src="/gm/ss3.jpg" alt="Terrain editor" />
-  </Galery>
+  <Gallery>
+    <GalleryItem src="/gm/ss1.jpg" alt="Character chopping wood, render error" />
+    <GalleryItem src="/gm/ss2.jpg" alt="Castle, water" />
+    <GalleryItem src="/gm/ss3.jpg" alt="Terrain editor" />
+  </Gallery>
 
   <hr />
   <div class="mt-2">
@@ -16,7 +16,10 @@
     <SkillIcon :size="24" icon="cpp" alt="C++" />
     <SkillIcon :size="24" icon="cmake" alt="CMake" />
   </div>
-  <hr class="mt-1" />
+  <hr class="my-1" />
+  Source Code:
+  <ProjectSourceCode name="gm" />
+  <hr class="my-1" />
 
   <p class="mt-4">This is probably the bigest project that I made by myself. I made this because I want to start in game
     development but I don't have any game idea so I just tought "Why don't just make copy of game that I play" and here

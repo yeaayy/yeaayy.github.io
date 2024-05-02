@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <a target="_blank" :href="`https://yeaayy.github.io/${name}`">Try out in new tab</a>
+  <a target="_blank" :href="`https://yeaayy.github.io/${name}`">Open in new tab</a>
 </template>
 
 <style scoped lang="scss">

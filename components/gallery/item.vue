@@ -16,7 +16,7 @@ function load() {
 </script>
 
 <template>
-  <div :style="{ '--alt': `'${alt}'` }">
+  <div :style="alt ? `--alt:'${alt}'` : null">
     <NuxtImg :src="`/img/${src}`" @load="load" @error="load" :alt="alt" :title="alt" />
   </div>
 </template>

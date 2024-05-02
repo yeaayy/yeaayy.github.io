@@ -8,6 +8,7 @@
     you interested we can learn Godot or Unity 3D together. I'm not interested using Unreal Engine it's too much for my
     current device.</p>
 
+  <ProjectRubikCube />
   <ProjectTownsmenClone />
   <Project2048 />
 </template>

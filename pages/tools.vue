@@ -4,4 +4,6 @@
 
   <ProjectSudoku />
   <ProjectNonogram />
+  <ProjectMazeGenerator />
+  <ProjectCayleyTable />
 </template>

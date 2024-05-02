@@ -5,8 +5,8 @@ defineProps<{
 </script>
 
 <template>
-  <a target="_blank" :href="`https://github.com/yeaayy/${name}`">
-    <SkillIcon :size="20" icon="github" />/{{ name }}
+  <a target="_blank" :href="`https://github.com/yeaayy/${name}/releases/latest`">
+    <slot>Download</slot>
   </a>
 </template>
 

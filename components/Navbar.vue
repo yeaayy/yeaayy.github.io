@@ -6,8 +6,8 @@
       <NavItem to="/game-projects">Game Projects</NavItem>
       <NavItem to="/tools">My Tools</NavItem>
       <NavItem to="/other-projects">Other Projects</NavItem>
-      <NavItem to="/vector">2D Vector</NavItem>
       <NavItem to="/3d">3D Render</NavItem>
+      <NavItem to="/vector">2D Vector</NavItem>
       <NavItem to="/drawing">Drawing</NavItem>
     </div>
   </div>

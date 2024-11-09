@@ -11,6 +11,3 @@
 	path = subprojects/maze-generator
 	url = https://github.com/yeaayy/maze-generator.git
 	branch = main
-[submodule "subprojects/random-yugioh-card"]
-	path = subprojects/random-yugioh-card
-	url = https://github.com/yeaayy/random-yugioh-card.git
